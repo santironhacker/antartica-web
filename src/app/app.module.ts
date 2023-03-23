@@ -6,9 +6,10 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CharacterSheetComponent } from './components/character-sheet/character-sheet/character-sheet.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
-    declarations: [AppComponent, CharacterSheetComponent],
+    declarations: [AppComponent, CharacterSheetComponent, HeaderComponent],
     imports: [
         BrowserModule,
         HttpClientModule,
